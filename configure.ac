@@ -13,7 +13,7 @@ m4_define([purple_display_version], purple_version[]m4_ifdef([purple_version_suf
 AC_INIT(pidgin-nateon, [purple_display_version], [hansun.lee@gmail.com])
 
 AC_CANONICAL_SYSTEM
-AM_CONFIG_HEADER(config.h)
+AC_CONFIG_HEADERS(config.h)
 AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
 
 PURPLE_MAJOR_VERSION=purple_major_version
